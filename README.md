@@ -1,6 +1,8 @@
 # mail-express
 Integración de email en ExpressJs ✅
 
+[POST] https://.../send-mail
+
 <code>
 {
 "from" : "Test",
