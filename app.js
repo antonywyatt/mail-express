@@ -16,6 +16,13 @@ app.get('/', (req, res) => {
     res.send('Ir a url🍕')
 })
 
+
+app.post('/test', (req, res) => {
+  res.send([{
+    msg: 'Funcionando...'
+  }])
+})
+
 app.post('/send-mail', async (req, res) => {
 
     const { 
